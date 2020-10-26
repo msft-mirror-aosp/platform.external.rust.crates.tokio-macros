@@ -1,0 +1,17 @@
+name: "tokio-macros"
+description:
+    "Tokio's proc macros.\n"
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/tokio-macros"
+  }
+  url {
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/tokio-macros/tokio-macros-0.2.5.crate"
+  }
+  version: "0.2.5"
+  last_upgrade_date { year: 2020 month: 10 day: 15 }
+  license_type: NOTICE
+}
