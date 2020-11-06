@@ -2,8 +2,8 @@
 {
   "presubmit": [
     {
-      "name": "tokio-macros_host_test_src_lib",
-      "host": true
+      "host": true,
+      "name": "tokio-macros_host_test_src_lib"
     }
   ]
 }
