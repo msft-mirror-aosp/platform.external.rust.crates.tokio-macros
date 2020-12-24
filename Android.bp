@@ -28,30 +28,29 @@ rust_test_host {
 }
 
 // dependent_library ["feature_list"]
-//   arc-swap-0.4.7
+//   autocfg-1.0.1
 //   bytes-0.6.0 "default,std"
 //   cfg-if-0.1.10
 //   cfg-if-1.0.0
-//   fnv-1.0.7 "default,std"
-//   futures-core-0.3.7 "alloc,default,std"
-//   instant-0.1.8
-//   lazy_static-1.4.0
-//   libc-0.2.80 "default,std"
-//   lock_api-0.4.1
+//   futures-core-0.3.8 "alloc,default,std"
+//   instant-0.1.9
+//   libc-0.2.81 "align,default,std"
+//   lock_api-0.4.2
 //   log-0.4.11
 //   memchr-2.3.4 "default,std"
-//   mio-0.7.4 "default,os-poll,os-util,tcp,udp,uds"
+//   mio-0.7.6 "default,net,os-ext,os-poll,os-util,tcp,udp,uds"
 //   num_cpus-1.13.0
-//   parking_lot-0.11.0 "default"
-//   parking_lot_core-0.8.0
-//   pin-project-lite-0.1.11
+//   once_cell-1.5.2 "alloc,default,std"
+//   parking_lot-0.11.1 "default"
+//   parking_lot_core-0.8.2
+//   pin-project-lite-0.2.0
 //   proc-macro2-1.0.24 "default,proc-macro"
-//   quote-1.0.7 "default,proc-macro"
+//   quote-1.0.8 "default,proc-macro"
 //   scopeguard-1.1.0
-//   signal-hook-registry-1.2.1
+//   signal-hook-registry-1.3.0
 //   slab-0.4.2
-//   smallvec-1.4.2
-//   syn-1.0.48 "clone-impls,default,derive,full,parsing,printing,proc-macro,quote"
-//   tokio-0.3.2 "bytes,default,fnv,fs,full,futures-core,io-std,io-util,lazy_static,libc,macros,memchr,mio,net,num_cpus,parking_lot,process,rt,rt-multi-thread,signal,signal-hook-registry,slab,stream,sync,time,tokio-macros,winapi"
-//   tokio-macros-0.3.1
+//   smallvec-1.5.1
+//   syn-1.0.55 "clone-impls,default,derive,full,parsing,printing,proc-macro,quote"
+//   tokio-0.3.6 "bytes,default,fs,full,futures-core,io-std,io-util,libc,macros,memchr,mio,net,num_cpus,once_cell,parking_lot,process,rt,rt-multi-thread,signal,signal-hook-registry,slab,stream,sync,time,tokio-macros,winapi"
+//   tokio-macros-0.3.2
 //   unicode-xid-0.2.1 "default"
