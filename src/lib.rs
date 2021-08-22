@@ -1,4 +1,3 @@
-#![doc(html_root_url = "https://docs.rs/tokio-macros/1.1.0")]
 #![allow(clippy::needless_doctest_main)]
 #![warn(
     missing_debug_implementations,
@@ -6,7 +5,7 @@
     rust_2018_idioms,
     unreachable_pub
 )]
-#![cfg_attr(docsrs, deny(broken_intra_doc_links))]
+#![cfg_attr(docsrs, deny(rustdoc::broken_intra_doc_links))]
 #![doc(test(
     no_crate_inject,
     attr(deny(warnings, rust_2018_idioms), allow(dead_code, unused_variables))
@@ -168,6 +167,8 @@ use proc_macro::TokenStream;
 /// }
 /// ```
 ///
+/// Note that `start_paused` requires the `test-util` feature to be enabled.
+///
 /// ### NOTE:
 ///
 /// If you rename the Tokio crate in your dependencies this macro will not work.
@@ -257,6 +258,8 @@ pub fn main_rt(args: TokenStream, item: TokenStream) -> TokenStream {
 ///     assert!(true);
 /// }
 /// ```
+///
+/// Note that `start_paused` requires the `test-util` feature to be enabled.
 ///
 /// ### NOTE:
 ///
