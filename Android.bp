@@ -21,8 +21,6 @@ license {
 rust_proc_macro {
     name: "libtokio_macros",
     crate_name: "tokio_macros",
-    cargo_env_compat: true,
-    cargo_pkg_version: "1.6.0",
     srcs: ["src/lib.rs"],
     edition: "2018",
     rustlibs: [
@@ -35,8 +33,6 @@ rust_proc_macro {
 rust_test_host {
     name: "tokio-macros_host_test_src_lib",
     crate_name: "tokio_macros",
-    cargo_env_compat: true,
-    cargo_pkg_version: "1.4.1",
     srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
