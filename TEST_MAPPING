@@ -2,6 +2,9 @@
 {
   "imports": [
     {
+      "path": "external/rust/crates/async-stream"
+    },
+    {
       "path": "external/rust/crates/futures-util"
     },
     {
@@ -9,22 +12,12 @@
     },
     {
       "path": "external/rust/crates/tokio-test"
-    }
-  ],
-  "presubmit": [
-    {
-      "name": "doh_unit_test"
     },
     {
-      "name": "rustBinderTest"
-    }
-  ],
-  "presubmit-rust": [
-    {
-      "name": "doh_unit_test"
+      "path": "external/uwb/src"
     },
     {
-      "name": "rustBinderTest"
+      "path": "packages/modules/DnsResolver"
     }
   ]
 }
