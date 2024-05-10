@@ -11,13 +11,13 @@ third_party {
   }
   url {
     type: ARCHIVE
-    value: "https://static.crates.io/crates/tokio-macros/tokio-macros-1.8.2.crate"
+    value: "https://static.crates.io/crates/tokio-macros/tokio-macros-2.1.0.crate"
   }
-  version: "1.8.2"
+  version: "2.1.0"
   license_type: NOTICE
   last_upgrade_date {
-    year: 2022
-    month: 12
-    day: 12
+    year: 2023
+    month: 11
+    day: 1
   }
 }
