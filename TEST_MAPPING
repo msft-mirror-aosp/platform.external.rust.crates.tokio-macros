@@ -18,6 +18,12 @@
     },
     {
       "path": "packages/modules/DnsResolver"
+    },
+    {
+      "path": "system/security/keystore2"
+    },
+    {
+      "path": "system/security/keystore2/legacykeystore"
     }
   ]
 }
